@@ -9,6 +9,7 @@ Linux users need xclip or xsel to be installed for the copying to work
 
 ## Install
 
+> If you use a Linux based OS with amd64 architecture you can download a pre-build and min-sized binary from [releases](https://github.com/asvvvad/cply/releases/)
 
 First, generate an api token for the search functionality (required): https://genius.com/api-clients
 
