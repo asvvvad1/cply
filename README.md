@@ -1,11 +1,16 @@
 # cply
 Search and copy lyrics from your terminal
-This version is a rewrite of my [php script](https://github.com/asvvvad/cply-php) in Go
+This version is a rewrite of my [PHP script](https://github.com/asvvvad/cply-php) in Go
 
-## Requirements
+## Requirements/Platforms
+
 I only tested it on a ubuntu based distro but it work on all others including BSD and MacOS and Windows
 
-Linux users need xclip or xsel to be installed for the copying to work
+> Linux users need `xclip` or `xsel` to be installed for the copying to work
+
+> Wayland users need [wl-clipboard](https://github.com/bugaevc/wl-clipboard)
+
+> It _should_ work on Termux but not tested.
 
 ## Install
 
@@ -13,8 +18,10 @@ Linux users need xclip or xsel to be installed for the copying to work
 
 First, generate an api token for the search functionality (required): https://genius.com/api-clients
 
-Then, set it in the environment variable $CPLY_TOKEN which you should keep in your `~/.profile`
+Then, set it in the environment variable `$CPLY_TOKEN` which you should keep in your `~/.profile`
+
 To do that add:  `export CPLY_TOKEN=access_token_here` to end of that file
+
 > changes to that file will only happen when you log out and log in againbut you can run `source ~/.profile` in the shell to test it
 
 Finally just run this command
