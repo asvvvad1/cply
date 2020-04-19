@@ -33,7 +33,7 @@ go install github.com/asvvvad/cply
 [![asciicast](https://asciinema.org/a/321229.svg)](https://asciinema.org/a/321229)
 
 ### Modules used:
-- [tsirysndr/go-genius](github.com/tsirysndr/go-genius)
-- [bigheadgeorge/lyrics/genius](github.com/bigheadgeorge/lyrics/genius)
-- [wzshiming/ctc](github.com/wzshiming/ctc)
-- [atotto/clipboard](github.com/atotto/clipboard)
+- [tsirysndr/go-genius](https://github.com/tsirysndr/go-genius)
+- [bigheadgeorge/lyrics/genius](https://github.com/bigheadgeorge/lyrics)
+- [wzshiming/ctc](https://github.com/wzshiming/ctc)
+- [atotto/clipboard](https://github.com/atotto/clipboard)
