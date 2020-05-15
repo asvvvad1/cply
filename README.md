@@ -30,6 +30,20 @@ go install github.com/asvvvad/cply
 ```
 
 ## Usage:
+  - `cply song name and/or artist` search for "song name and/or artist" and gives you results to select from (max. 10)
+  - - To select a song simply type its number in the input and press enter, to choose the first one press enter directly or:
+
+  - `cply -first|-1 song name and/or artist` search for "song name and/or artist" then fetch and copy the first result directly
+  - - This can be made default by setting the `$CPLY_FIRST` variable
+
+  - `cply -print|-p song name and/or artist` search for "song name and/or artist" print the lyrics instead of just copying
+  - - This can be made default by setting the `$CPLY_PRINT` variable
+  - - `cply -print|-p -no-color|-n song name and/or artist` print without highlighting (Making the [Chorus] ect yellow)
+  - - - This can be made default by setting the `$CPLY_NOCOLOR` variable
+
+  - `cply -1 -p song name and/or artist` search, select first result (if there is), copy it and print.
+ 
+### ASCIICAST
 [![asciicast](https://asciinema.org/a/321229.svg)](https://asciinema.org/a/321229)
 
 ### Modules used:
